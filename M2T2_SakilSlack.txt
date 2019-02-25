@@ -1,0 +1,175 @@
+<!--
+Author: Keymoni Sakil-Slack
+WEB151
+Program Name: M2T2_SakilSlack
+Program Description:  draw a 3x3 grid with turtle commands
+Date: 2/4/2019
+-->
+
+moveForward();
+
+moveForward();
+
+moveForward();
+
+turnLeft();
+
+moveForward();
+
+moveForward();
+
+moveForward();
+
+turnLeft();
+
+moveForward();
+
+moveForward();
+
+moveForward();
+
+turnLeft();
+
+moveForward();
+
+moveForward();
+
+moveForward();
+
+turnLeft();
+
+moveForward();
+
+turnLeft();
+
+moveForward();
+
+moveForward();
+
+moveForward();
+
+turnLeft();
+
+turnLeft();
+
+turnLeft();
+
+moveForward();
+
+turnLeft();
+
+turnLeft();
+
+turnLeft();
+
+moveForward();
+
+moveForward();
+
+moveForward();
+
+turnLeft();
+
+moveForward();
+
+turnLeft();
+
+moveForward();
+
+turnLeft();
+
+moveForward();
+
+moveForward();
+
+moveForward();
+
+turnLeft();
+
+turnLeft();
+
+turnLeft();
+
+moveForward();
+
+turnLeft();
+
+turnLeft();
+
+turnLeft();
+
+moveForward();
+
+moveForward();
+
+moveForward();
+
+turnLeft();
+
+turnLeft();
+
+moveForward();
+
+moveForward();
+
+moveForward();
+
+turnLeft();
+
+turnLeft();
+
+turnLeft();
+
+moveForward();
+
+turnLeft();
+
+turnLeft();
+turnLeft();
+
+
+<!--
+Author: Keymoni Sakil-Slack
+WEB151
+Program Name: M2T2_SakilSlack
+Program Description:  draw a diamond with functions
+Date: 2/4/2019
+-->
+
+function drawDiamond() {
+  drawSide();
+  moveForward();
+  right();
+  drawSide();
+  moveForward();
+  right();
+  drawSide();
+  moveForward();
+  right();
+  drawSide();
+  moveForward();
+  right();
+}
+function drawStep(){
+  moveForward();
+  turnLeft();
+}
+function drawSide() {
+  drawStep();
+  moveForward();
+  right();
+  drawStep();
+  moveForward();
+  right();
+  drawStep();
+  moveForward();
+  right();
+}
+function right(){
+  turnLeft();
+  turnLeft();
+  turnLeft();
+}
+
+// 
+drawDiamond();
