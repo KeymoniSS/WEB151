@@ -1,0 +1,36 @@
+<!--
+WEB 151
+M3T2_SophisicatedInsults
+sakilslack
+2/20/19
+-->
+
+<html>
+	<head>
+	</head>
+	
+	<body>
+	<h1> Insult Generator </h1>
+	<script>
+	
+	//print an array
+	var randomBodyParts = ["head","nose","toe","smile"];
+	var randomAdjectives = ["cruddy","slimy","crooked","ugly","foul"];
+	var randomAnimals = ["cockroach","frog","pig","monkey","boar","snake"];
+	var randomAnimalsParts = ["butt","tail","mouth","ears","nose","tongue"];
+	
+	// choose a random word
+	var randomBodyPart = randomBodyParts[Math.floor(Math.random() * 4)];
+	var randomAdjective = randomAdjectives[Math.floor(Math.random() * 5)];
+	var randomAnimal = randomAnimals[Math.floor(Math.random() * 6)];
+	var randomAnimalPart = randomAnimalsParts[Math.floor(Math.random() * 6)];
+	//document.write[i];
+	
+	//the parameter passed to join is the separator
+	var randomInsult = "Your " + randomBodyPart + " is more " +
+	randomAdjective + " than a " + randomAnimal + "'s " + randomAnimalPart + "!!!";
+	document.write(randomInsult);
+
+	</script>
+	</body>
+</html>
