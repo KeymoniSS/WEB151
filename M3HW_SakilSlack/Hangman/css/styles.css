@@ -1,0 +1,30 @@
+div {
+  border: 1px solid gray;
+  padding: 8px;
+  background-color: #2D292E;
+  color: #FFFFFF;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 2.5em;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #A9F3FF;
+  text-shadow: 3px 2px #FFC3A9;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 3.4em;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  
+}
+a {
+  text-decoration: none;
+  color: #008CBA;
+  
+}
